@@ -10,6 +10,7 @@ export default async function PostPage({ params }: { params: Params }){
   return (
     <div>
       <h1>{postData.title}</h1>
+      <p>image maybe here</p>
       <div dangerouslySetInnerHTML={{ __html: postData.content }} />
     </div>
   );
