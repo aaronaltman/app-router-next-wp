@@ -1,3 +1,4 @@
+'use client'
 import { fetchPostData } from "@/utils/fetchPostData";
 
 interface Params {
